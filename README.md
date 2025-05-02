@@ -19,10 +19,13 @@ Usage: node MegaMedusa https://example.com 300 30 10 proxy.txt
 
 ### - Installations :
  ```
+sudo apt update && sudo apt install -y git curl software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt install -y python3.10 python3.10-venv python3.10-distutils
 git clone https://github.com/TrashDono/MegaMedusa
 cd MegaMedusa
-python3 nvminstall.py
-python3 installer.py
+sudo python3 nvminstall.py
+sudo python3 installer.py
 ```
 ### - OS / Kernel Support :
 - Termux 
