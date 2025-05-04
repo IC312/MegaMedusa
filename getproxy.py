@@ -71,7 +71,7 @@ rs = Style.RESET_ALL # Reset tất cả style và màu
 # --- Danh sách các URL chứa proxy list ---
 # *** Danh sách này đã được mở rộng ***
 list_proxy_urls = [
-    # === Nguồn gốc và bổ sung lần 1 ===
+    # === Nguồn gốc và bổ sung lần 1 + 2 ===
     'https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt',
     'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt',
     'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt',
@@ -117,14 +117,12 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks4.txt',
     'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-socks5.txt',
     'https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt',
-
-    # === Bổ sung lần 2 (Nhiều nguồn hơn) ===
     'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt',
     'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt',
-    'https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/http/global/http_checked.txt', # Danh sách đã check (?)
+    'https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/http/global/http_checked.txt',
     'https://raw.githubusercontent.com/prxchk/proxy-list/main/socks4.txt',
     'https://raw.githubusercontent.com/prxchk/proxy-list/main/socks5.txt',
-    'https://raw.githubusercontent.com/NotUnko/proxy-list/main/proxy-list.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/NotUnko/proxy-list/main/proxy-list.txt',
     'https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt',
     'https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt',
     'https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt',
@@ -132,9 +130,9 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/https.txt',
     'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks4.txt',
     'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/socks5.txt',
-    'https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt',
     'https://raw.githubusercontent.com/aslisk/proxyhttps/main/https.txt',
-    'https://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt',
     'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt',
     'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt',
     'https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt',
@@ -142,10 +140,10 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/HyperBeats/proxy-list/main/https.txt',
     'https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks4.txt',
     'https://raw.githubusercontent.com/HyperBeats/proxy-list/main/socks5.txt',
-    'https://www.proxy-list.download/api/v1/get?type=http', # API
-    'https://www.proxy-list.download/api/v1/get?type=https', # API
-    'https://www.proxy-list.download/api/v1/get?type=socks4', # API
-    'https://www.proxy-list.download/api/v1/get?type=socks5', # API
+    'https://www.proxy-list.download/api/v1/get?type=http',
+    'https://www.proxy-list.download/api/v1/get?type=https',
+    'https://www.proxy-list.download/api/v1/get?type=socks4',
+    'https://www.proxy-list.download/api/v1/get?type=socks5',
     'https://raw.githubusercontent.com/UserR3X/proxy-list/main/online/http.txt',
     'https://raw.githubusercontent.com/UserR3X/proxy-list/main/online/https.txt',
     'https://raw.githubusercontent.com/UserR3X/proxy-list/main/online/socks4.txt',
@@ -162,9 +160,35 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/https.txt',
     'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt',
     'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt',
-    # Thêm các nguồn API từ proxyscrape cho SOCKS
     'https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4',
     'https://api.proxyscrape.com/?request=displayproxies&proxytype=socks5',
+
+    # === Bổ sung lần 3 (Thêm nữa!) ===
+    'https://raw.githubusercontent.com/iptotal/free-proxy-list/master/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/ProxyScraper/ProxyScraper/main/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/KnownProxies/KnownProxies/master/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/Aireay/Proxy-List/main/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/zloi-user/hideip.me/main/http.txt',
+    'https://raw.githubusercontent.com/zloi-user/hideip.me/main/https.txt',
+    'https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks4.txt',
+    'https://raw.githubusercontent.com/zloi-user/hideip.me/main/socks5.txt',
+    'https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/http.txt',
+    'https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/socks4.txt',
+    'https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/socks5.txt',
+    'https://raw.githubusercontent.com/almroot/proxylist/master/list.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/improxy/proxy-list/main/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/proxybank/proxy-list/main/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/Volodichev/proxy-list/main/http.txt',
+    'https://raw.githubusercontent.com/Volodichev/proxy-list/main/https.txt',
+    'https://raw.githubusercontent.com/Volodichev/proxy-list/main/socks4.txt',
+    'https://raw.githubusercontent.com/Volodichev/proxy-list/main/socks5.txt',
+    'https://raw.githubusercontent.com/MisterPoster/proxy-list/main/proxies/http.txt',
+    'https://raw.githubusercontent.com/MisterPoster/proxy-list/main/proxies/https.txt',
+    'https://raw.githubusercontent.com/MisterPoster/proxy-list/main/proxies/socks4.txt',
+    'https://raw.githubusercontent.com/MisterPoster/proxy-list/main/proxies/socks5.txt',
+    'https://raw.githubusercontent.com/ObcbO/getproxy/master/proxy.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/freeproxylistdaily/free-proxy-list/main/proxies.txt', # Tổng hợp
+    'https://raw.githubusercontent.com/proxyappio/proxy-list/main/proxies.txt', # Tổng hợp
 ]
 
 # --- Hàm chính thực thi ---
