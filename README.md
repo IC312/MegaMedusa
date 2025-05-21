@@ -20,8 +20,7 @@ Usage: node MegaMedusa https://example.com 300 30 10 proxy.txt
 ### - Installations (Liinux) :
  ```
 sudo apt update && sudo apt install -y git curl software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa -y
-sudo apt install -y python3.10 python3.10-venv python3.10-distutils
+sudo apt install -y python3.12-venv
 git clone https://github.com/TrashDono/MegaMedusa
 cd MegaMedusa
 sudo python3 nvminstall.py
