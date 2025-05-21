@@ -72,6 +72,8 @@ rs = Style.RESET_ALL # Reset tất cả style và màu
 # *** Danh sách này đã được mở rộng ***
 list_proxy_urls = [
     'https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt',
+    'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt',
+    'https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt',
     'https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/http.txt',
     'https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/https.txt',
     'https://raw.githubusercontent.com/vmheaven/VMHeaven-Free-Proxy-Updated/refs/heads/main/socks5.txt',
@@ -79,13 +81,22 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt',
     'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4.txt',
     'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5.txt',
+    'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http_checked.txt',
+    'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4_checked.txt',
+    'https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5_checked.txt',
     'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt',
     'https://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt',
     'https://raw.githubusercontent.com/yuceltoluyag/GoodProxy/main/raw.txt',
     'https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt',
     'https://api.openproxylist.xyz/http.txt',
+    'https://api.openproxylist.xyz/https.txt',
+    'https://api.openproxylist.xyz/socks4.txt',
+    'https://api.openproxylist.xyz/socks5.txt',
     'https://proxyspace.pro/http.txt',
-    'https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt',
+    'https://proxyspace.pro/socks5.txt',
+    'https://proxyspace.pro/socks4.txt',
+    'https://proxyspace.pro/https.txt',
+    'https://raw.githubusercontent.com/zevtyardt/proxy-list/main/all.txt',
     'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/http.txt',
     'https://raw.githubusercontent.com/TuanMinPay/live-proxy/master/http.txt',
     'https://raw.githubusercontent.com/rdavydov/proxy-list/main/proxies/http.txt',
@@ -115,6 +126,9 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/zebbern/Proxy-Scraper/refs/heads/main/https.txt',
     'https://raw.githubusercontent.com/zebbern/Proxy-Scraper/refs/heads/main/socks5.txt',
     'https://raw.githubusercontent.com/zebbern/Proxy-Scraper/refs/heads/main/socks4.txt',
+    'https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/socks5.txt',
+    'https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/socks4.txt',
+    'https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/http.txt',
 ]
 # --- Hàm chính thực thi ---
 if __name__ == "__main__":
