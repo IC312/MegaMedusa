@@ -129,6 +129,16 @@ list_proxy_urls = [
     'https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/socks5.txt',
     'https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/socks4.txt',
     'https://raw.githubusercontent.com/dinoz0rg/proxy-list/main/scraped_proxies/http.txt',
+    'https://raw.githubusercontent.com/casa-ls/proxy-list/refs/heads/main/http',
+    'https://raw.githubusercontent.com/casa-ls/proxy-list/refs/heads/main/socks4',
+    'https://raw.githubusercontent.com/casa-ls/proxy-list/refs/heads/main/socks5',
+    'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/refs/heads/main/proxies/http.txt',
+    'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/refs/heads/main/proxies/socks4.txt',
+    'https://raw.githubusercontent.com/ErcinDedeoglu/proxies/refs/heads/main/proxies/socks5.txt',
+    'https://raw.githubusercontent.com/FifzzSENZE/Master-Proxy/master/proxies/all.txt',
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/refs/heads/main/proxies/http.txt',
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/refs/heads/main/proxies/socks4.txt',
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/refs/heads/main/proxies/https.txt',
 ]
 # --- Hàm chính thực thi ---
 if __name__ == "__main__":
