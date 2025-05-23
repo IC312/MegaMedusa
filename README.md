@@ -17,7 +17,7 @@ https://discord.gg/UWdDE73tyD
 Usage: node MegaMedusa https://example.com 300 30 10 proxy.txt
 ````
 
-### - Installations (Liinux) :
+### - Installations (Linux) :
  ```
 sudo apt update && sudo apt install -y git curl software-properties-common
 sudo apt install -y python3.12-venv
@@ -42,6 +42,16 @@ python3 nvminstall.py
 python3 installer.py
 python3.10 getproxy.py (x2 lần)
 node MegaMedusa 
+```
+### - Venv (Linux) :
+ ```
+deactivate
+sudo apt update
+sudo apt install -y python3.12-venv
+rm -rf venv
+python3 -m venv venv
+source venv/bin/activate
+
 ```
 
 ### - OS / Kernel Support :
